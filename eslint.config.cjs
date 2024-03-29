@@ -4,7 +4,6 @@ const eslint = require("@eslint/js");
 const tsPlugin = require("@typescript-eslint/eslint-plugin");
 const tsParser = require("@typescript-eslint/parser");
 const jestPlugin = require("eslint-plugin-jest");
-const importPlugin = require("eslint-plugin-import");
 const promisePlugin = require("eslint-plugin-promise");
 
 const opts = [
@@ -30,7 +29,6 @@ const opts = [
   {
     files: ["**/*.js", "**/*.ts", "**/*.cjs", "**/*.mjs"],
     plugins: {
-      import: importPlugin,
       promise: promisePlugin,
     },
     settings: {
@@ -73,15 +71,9 @@ const opts = [
     files: ["**/*.js", "**/*.ts", "**/*.cjs", "**/*.mjs"],
     rules: {
       ...eslint.configs.recommended.rules,
-      ...importPlugin.configs.recommended.rules,
       ...google.rules,
       ...promisePlugin.configs.recommended.rules,
     },
-  },
-  {
-    files: ["**/*.ts"],
-    rules: importPlugin.configs.typescript.rules,
-    settings: importPlugin.configs.typescript.settings,
   },
   {
     files: ["**/*.ts"],
