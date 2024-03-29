@@ -1,6 +1,19 @@
 {
   "name": "fp-rwapp",
   "packageManager": "yarn@4.1.1",
+  "type": "module",
+  "scripts": {
+    "start": "node dist/main.js",
+    "start:dev": "nodemon",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:integration": "jest --config jest.config.integration.cjs",
+    "test:integration:watch": "jest --config jest.config.integration.cjs --watch",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "typecheck": "tsc --pretty --noEmit",
+    "build": "tsc"
+  },
   "devDependencies": {
     "@eslint/js": "^8.57.0",
     "@types/eslint": "^8",
