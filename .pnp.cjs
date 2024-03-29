@@ -37,6 +37,7 @@ const RAW_RUNTIME_STATE =
           ["eslint-plugin-import", "virtual:e5e5c65dd08c7aea277688ce6cb09cf73a425aeafa15624bbf8ea46cdc09772e46f42831fff09316a8d35ebb17cef4085d0ed0912b283170e7e96b16a6d300ad#npm:2.29.1"],\
           ["eslint-plugin-jest", "virtual:e5e5c65dd08c7aea277688ce6cb09cf73a425aeafa15624bbf8ea46cdc09772e46f42831fff09316a8d35ebb17cef4085d0ed0912b283170e7e96b16a6d300ad#npm:27.9.0"],\
           ["eslint-plugin-promise", "virtual:e5e5c65dd08c7aea277688ce6cb09cf73a425aeafa15624bbf8ea46cdc09772e46f42831fff09316a8d35ebb17cef4085d0ed0912b283170e7e96b16a6d300ad#npm:6.1.1"],\
+          ["fp-ts", "npm:2.16.5"],\
           ["globals", "npm:15.0.0"],\
           ["jest", "virtual:e5e5c65dd08c7aea277688ce6cb09cf73a425aeafa15624bbf8ea46cdc09772e46f42831fff09316a8d35ebb17cef4085d0ed0912b283170e7e96b16a6d300ad#npm:29.7.0"],\
           ["nodemon", "npm:3.1.0"],\
@@ -3824,6 +3825,7 @@ const RAW_RUNTIME_STATE =
           ["eslint-plugin-import", "virtual:e5e5c65dd08c7aea277688ce6cb09cf73a425aeafa15624bbf8ea46cdc09772e46f42831fff09316a8d35ebb17cef4085d0ed0912b283170e7e96b16a6d300ad#npm:2.29.1"],\
           ["eslint-plugin-jest", "virtual:e5e5c65dd08c7aea277688ce6cb09cf73a425aeafa15624bbf8ea46cdc09772e46f42831fff09316a8d35ebb17cef4085d0ed0912b283170e7e96b16a6d300ad#npm:27.9.0"],\
           ["eslint-plugin-promise", "virtual:e5e5c65dd08c7aea277688ce6cb09cf73a425aeafa15624bbf8ea46cdc09772e46f42831fff09316a8d35ebb17cef4085d0ed0912b283170e7e96b16a6d300ad#npm:6.1.1"],\
+          ["fp-ts", "npm:2.16.5"],\
           ["globals", "npm:15.0.0"],\
           ["jest", "virtual:e5e5c65dd08c7aea277688ce6cb09cf73a425aeafa15624bbf8ea46cdc09772e46f42831fff09316a8d35ebb17cef4085d0ed0912b283170e7e96b16a6d300ad#npm:29.7.0"],\
           ["nodemon", "npm:3.1.0"],\
@@ -3832,6 +3834,15 @@ const RAW_RUNTIME_STATE =
           ["typescript", "patch:typescript@npm%3A5.4.3#optional!builtin<compat/typescript>::version=5.4.3&hash=5adc0c"]\
         ],\
         "linkType": "SOFT"\
+      }]\
+    ]],\
+    ["fp-ts", [\
+      ["npm:2.16.5", {\
+        "packageLocation": "./.yarn/cache/fp-ts-npm-2.16.5-80993162dc-7208a91dcf.zip/node_modules/fp-ts/",\
+        "packageDependencies": [\
+          ["fp-ts", "npm:2.16.5"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["fs-minipass", [\
