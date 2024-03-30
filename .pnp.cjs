@@ -40,6 +40,7 @@ const RAW_RUNTIME_STATE =
           ["globals", "npm:15.0.0"],\
           ["jest", "virtual:e5e5c65dd08c7aea277688ce6cb09cf73a425aeafa15624bbf8ea46cdc09772e46f42831fff09316a8d35ebb17cef4085d0ed0912b283170e7e96b16a6d300ad#npm:29.7.0"],\
           ["nodemon", "npm:3.1.0"],\
+          ["prettier", "npm:3.2.5"],\
           ["ts-jest", "virtual:e5e5c65dd08c7aea277688ce6cb09cf73a425aeafa15624bbf8ea46cdc09772e46f42831fff09316a8d35ebb17cef4085d0ed0912b283170e7e96b16a6d300ad#npm:29.1.2"],\
           ["tsx", "npm:4.7.1"],\
           ["typescript", "patch:typescript@npm%3A5.4.3#optional!builtin<compat/typescript>::version=5.4.3&hash=5adc0c"]\
@@ -3399,6 +3400,7 @@ const RAW_RUNTIME_STATE =
           ["globals", "npm:15.0.0"],\
           ["jest", "virtual:e5e5c65dd08c7aea277688ce6cb09cf73a425aeafa15624bbf8ea46cdc09772e46f42831fff09316a8d35ebb17cef4085d0ed0912b283170e7e96b16a6d300ad#npm:29.7.0"],\
           ["nodemon", "npm:3.1.0"],\
+          ["prettier", "npm:3.2.5"],\
           ["ts-jest", "virtual:e5e5c65dd08c7aea277688ce6cb09cf73a425aeafa15624bbf8ea46cdc09772e46f42831fff09316a8d35ebb17cef4085d0ed0912b283170e7e96b16a6d300ad#npm:29.1.2"],\
           ["tsx", "npm:4.7.1"],\
           ["typescript", "patch:typescript@npm%3A5.4.3#optional!builtin<compat/typescript>::version=5.4.3&hash=5adc0c"]\
@@ -5252,6 +5254,15 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/prelude-ls-npm-1.2.1-3e4d272a55-b00d617431.zip/node_modules/prelude-ls/",\
         "packageDependencies": [\
           ["prelude-ls", "npm:1.2.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["prettier", [\
+      ["npm:3.2.5", {\
+        "packageLocation": "./.yarn/unplugged/prettier-npm-3.2.5-6859110d6a/node_modules/prettier/",\
+        "packageDependencies": [\
+          ["prettier", "npm:3.2.5"]\
         ],\
         "linkType": "HARD"\
       }]\
