@@ -20,7 +20,15 @@
     "resolveJsonModule": true,
 
     "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true
+    "forceConsistentCasingInFileNames": true,
+
+    "paths": {
+      "@/*": ["./src/*"],
+      "@common/*": ["./src/common/*"],
+      "@config/*": ["./src/config/*"],
+      "@util/*": ["./src/util/*"],
+      "@application/*": ["./src/application/*"],
+    }
   },
 
   "include": ["src/**/*.ts"]
