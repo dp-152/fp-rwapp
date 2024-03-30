@@ -2484,6 +2484,7 @@ __metadata:
   resolution: "fp-rwapp@workspace:."
   dependencies:
     "@eslint/js": "npm:^8.57.0"
+    "@jest/globals": "npm:^29.7.0"
     "@types/eslint": "npm:^8"
     "@types/eslint__js": "npm:^8"
     "@types/node": "npm:^20.11.30"
