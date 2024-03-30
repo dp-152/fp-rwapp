@@ -35,6 +35,7 @@
     "typescript": "^5.4.3"
   },
   "dependencies": {
-    "fp-ts": "^2.16.5"
+    "fp-ts": "^2.16.5",
+    "zod": "^3.22.4"
   }
 }
