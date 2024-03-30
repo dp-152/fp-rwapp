@@ -30,6 +30,7 @@ const RAW_RUNTIME_STATE =
           ["@jest/globals", "npm:29.7.0"],\
           ["@types/eslint", "npm:8.56.6"],\
           ["@types/eslint__js", "npm:8.42.3"],\
+          ["@types/module-alias", "npm:2.0.4"],\
           ["@types/node", "npm:20.11.30"],\
           ["@typescript-eslint/eslint-plugin", "virtual:e5e5c65dd08c7aea277688ce6cb09cf73a425aeafa15624bbf8ea46cdc09772e46f42831fff09316a8d35ebb17cef4085d0ed0912b283170e7e96b16a6d300ad#npm:7.4.0"],\
           ["@typescript-eslint/parser", "virtual:e5e5c65dd08c7aea277688ce6cb09cf73a425aeafa15624bbf8ea46cdc09772e46f42831fff09316a8d35ebb17cef4085d0ed0912b283170e7e96b16a6d300ad#npm:7.4.0"],\
@@ -40,6 +41,7 @@ const RAW_RUNTIME_STATE =
           ["fp-ts", "npm:2.16.5"],\
           ["globals", "npm:15.0.0"],\
           ["jest", "virtual:e5e5c65dd08c7aea277688ce6cb09cf73a425aeafa15624bbf8ea46cdc09772e46f42831fff09316a8d35ebb17cef4085d0ed0912b283170e7e96b16a6d300ad#npm:29.7.0"],\
+          ["module-alias", "npm:2.2.3"],\
           ["nodemon", "npm:3.1.0"],\
           ["prettier", "npm:3.2.5"],\
           ["ts-jest", "virtual:e5e5c65dd08c7aea277688ce6cb09cf73a425aeafa15624bbf8ea46cdc09772e46f42831fff09316a8d35ebb17cef4085d0ed0912b283170e7e96b16a6d300ad#npm:29.1.2"],\
@@ -1724,6 +1726,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["@types/module-alias", [\
+      ["npm:2.0.4", {\
+        "packageLocation": "./.yarn/cache/@types-module-alias-npm-2.0.4-240b80ecf0-73e0993763.zip/node_modules/@types/module-alias/",\
+        "packageDependencies": [\
+          ["@types/module-alias", "npm:2.0.4"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["@types/node", [\
       ["npm:20.11.30", {\
         "packageLocation": "./.yarn/cache/@types-node-npm-20.11.30-b20dd3f11f-867cfaf969.zip/node_modules/@types/node/",\
@@ -3392,6 +3403,7 @@ const RAW_RUNTIME_STATE =
           ["@jest/globals", "npm:29.7.0"],\
           ["@types/eslint", "npm:8.56.6"],\
           ["@types/eslint__js", "npm:8.42.3"],\
+          ["@types/module-alias", "npm:2.0.4"],\
           ["@types/node", "npm:20.11.30"],\
           ["@typescript-eslint/eslint-plugin", "virtual:e5e5c65dd08c7aea277688ce6cb09cf73a425aeafa15624bbf8ea46cdc09772e46f42831fff09316a8d35ebb17cef4085d0ed0912b283170e7e96b16a6d300ad#npm:7.4.0"],\
           ["@typescript-eslint/parser", "virtual:e5e5c65dd08c7aea277688ce6cb09cf73a425aeafa15624bbf8ea46cdc09772e46f42831fff09316a8d35ebb17cef4085d0ed0912b283170e7e96b16a6d300ad#npm:7.4.0"],\
@@ -3402,6 +3414,7 @@ const RAW_RUNTIME_STATE =
           ["fp-ts", "npm:2.16.5"],\
           ["globals", "npm:15.0.0"],\
           ["jest", "virtual:e5e5c65dd08c7aea277688ce6cb09cf73a425aeafa15624bbf8ea46cdc09772e46f42831fff09316a8d35ebb17cef4085d0ed0912b283170e7e96b16a6d300ad#npm:29.7.0"],\
+          ["module-alias", "npm:2.2.3"],\
           ["nodemon", "npm:3.1.0"],\
           ["prettier", "npm:3.2.5"],\
           ["ts-jest", "virtual:e5e5c65dd08c7aea277688ce6cb09cf73a425aeafa15624bbf8ea46cdc09772e46f42831fff09316a8d35ebb17cef4085d0ed0912b283170e7e96b16a6d300ad#npm:29.1.2"],\
@@ -4923,6 +4936,15 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/mkdirp-npm-1.0.4-37f6ef56b9-46ea0f3ffa.zip/node_modules/mkdirp/",\
         "packageDependencies": [\
           ["mkdirp", "npm:1.0.4"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["module-alias", [\
+      ["npm:2.2.3", {\
+        "packageLocation": "./.yarn/cache/module-alias-npm-2.2.3-efe84a0061-47dc5b6d04.zip/node_modules/module-alias/",\
+        "packageDependencies": [\
+          ["module-alias", "npm:2.2.3"]\
         ],\
         "linkType": "HARD"\
       }]\

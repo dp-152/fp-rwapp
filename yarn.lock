@@ -1139,6 +1139,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/module-alias@npm:^2":
+  version: 2.0.4
+  resolution: "@types/module-alias@npm:2.0.4"
+  checksum: 10c0/73e0993763526093d9e0993923e93a43186fac9b73e6ee6f785a34a79db6130468b2c9d9798c092ae5d50e8a2e6f7ab51a7f638ee7671037c15b5dde15dc5787
+  languageName: node
+  linkType: hard
+
 "@types/node@npm:*, @types/node@npm:^20.11.30":
   version: 20.11.30
   resolution: "@types/node@npm:20.11.30"
@@ -2487,6 +2494,7 @@ __metadata:
     "@jest/globals": "npm:^29.7.0"
     "@types/eslint": "npm:^8"
     "@types/eslint__js": "npm:^8"
+    "@types/module-alias": "npm:^2"
     "@types/node": "npm:^20.11.30"
     "@typescript-eslint/eslint-plugin": "npm:^7.4.0"
     "@typescript-eslint/parser": "npm:^7.4.0"
@@ -2497,6 +2505,7 @@ __metadata:
     fp-ts: "npm:^2.16.5"
     globals: "npm:^15.0.0"
     jest: "npm:^29.7.0"
+    module-alias: "npm:^2.2.3"
     nodemon: "npm:^3.1.0"
     prettier: "npm:^3.2.5"
     ts-jest: "npm:^29.1.2"
@@ -3835,6 +3844,13 @@ __metadata:
   bin:
     mkdirp: bin/cmd.js
   checksum: 10c0/46ea0f3ffa8bc6a5bc0c7081ffc3907777f0ed6516888d40a518c5111f8366d97d2678911ad1a6882bf592fa9de6c784fea32e1687bb94e1f4944170af48a5cf
+  languageName: node
+  linkType: hard
+
+"module-alias@npm:^2.2.3":
+  version: 2.2.3
+  resolution: "module-alias@npm:2.2.3"
+  checksum: 10c0/47dc5b6d04f6e7df0ff330ca9b2a37c688a682ed661e9432b0b327e1e6c43eedad052151b8d50d6beea8b924828d2a92fa4625c18d651bf2d93d8f03aa0172fa
   languageName: node
   linkType: hard
 
